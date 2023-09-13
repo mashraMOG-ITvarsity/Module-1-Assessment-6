@@ -1,0 +1,139 @@
+.navbar{
+    font-family:times;
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+nav{
+   flex:1;
+   text-align:right;
+}
+
+nav ul{
+   display:inline-block;
+   list-style-type:none;
+}
+nav ul li{
+   display:inline-block;
+   margin-right:20px;
+}
+
+.navbar a{
+   text-decoration:none;
+   color:black;
+   background-color:pink;
+   font-display:block;
+   padding:5px;
+   font-size:larger;
+
+}
+
+.navbar a:hover{
+    background-color:magenta;
+    color:white;
+}
+
+#info h1{
+    text-align:center;
+    font-family:times;
+    font-style:italic;
+    color:palevioletred;
+
+}
+
+#info p{
+    text-align:center;
+    font-family:times;
+    font-size: 20px;
+    color:black;
+}
+
+#info img{
+   padding-left:30px;
+}
+
+/*===============ABOUT==============*/
+
+h2{
+   text-align:center;
+   font-family:times;
+   font-weight:600;
+   font-size:50px;
+   color:palevioletred;
+}
+
+p{
+   font-family:times;
+   font-size:20px;
+   padding:10px;
+   color:black;
+}
+
+a{
+   text-decoration:none;
+   font-size:20px;
+   padding:10px;
+   color:mediumvioletred;
+}
+
+/*===========CONTACT============*/
+
+h3{
+   text-decoration:underline;
+   padding-left:150px;
+   font-weight:400;
+   margin-left:20px;
+   color:purple;
+}
+
+.contact-info{
+   margin-left:150px;
+}
+
+.return a{
+   background-color:palevioletred;
+   color:black;
+   padding:5px;
+}
+
+
+.return a:hover{
+   background-color:mediumvioletred;
+   color:white;
+}
+
+/*=============PRODUCTS============*/
+
+.product{
+   margin-left:360px;
+   display: block;
+   width:50%;
+   height:30px;
+}
+
+.info-full p{
+   margin-left:30px;
+   font-family:times;
+   font-weight: 200;
+   font-size:19px;
+}
+
+table{
+   margin-left:50px;
+   border-collapse:collapse;
+   border-style:solid;
+   border-color:black;
+}
+
+input{
+   margin-left:1150px;
+   padding:15px;
+   background-color:palevioletred;
+   border-color: palevioletred;
+   font-weight:600;
+}
+
+input:hover{
+   background-color:mediumvioletred;
+   color:white;
+}
